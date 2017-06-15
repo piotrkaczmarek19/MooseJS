@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MooseJS - TestPage</title>
+</head>
+<body>
+	<div class="container">
+		<h2>Click on one of the buttons below to change the content of the div</h2>
+		<button class="chgeContent-button" id="first">First content</button>
+		<button class="chgeContent-button" id="second">Second content</button>
+		<div class="content-container">
+			<p class="content">Content will change here</p>
+		</div>
+		<button class="translate">Translate me!</button>
+		<button class="rotate">Rotate me!</button>
+	</div>
+</body>
+<style>
+	.container
+	{
+		width: 900px;
+		margin: 0 auto;
+	}
+	button
+	{
+		background-color: #0d0d0d;
+		color: white;
+		border: 0;
+		box-shadow: none;
+		border-radius: 5px;
+		padding: 5px;
+		cursor: pointer;
+	}
+	button:hover
+	{
+		background-color: #0e5e5e;
+	}
+	.content-container
+	{
+		margin-bottom: 20px;
+	}
+</style>
+<script src="scripts/handlebars.js"></script>
+<script src="scripts/moose.js"></script>
+<script src="scripts/script.js"></script>
+</html>

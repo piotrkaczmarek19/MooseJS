@@ -1,0 +1,9 @@
+{
+	"first": {
+		"div": {"title": "first"}	
+	},
+	"second": {
+		"div": {"title": "it just works"}	
+	}
+}
+

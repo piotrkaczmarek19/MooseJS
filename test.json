@@ -1,0 +1,8 @@
+{
+	"first": {
+		"div": {"title": "content N°1 is being displayed"}	
+	},
+	"second": {
+		"div": {"title": "we changed the content displayed to N°2"}	
+	}
+}
